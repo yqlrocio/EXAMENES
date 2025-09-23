@@ -21,7 +21,7 @@ public class exercise05 {
 
 		//Pedir al usuario el radio de la circunferencia
 		System.out.println("Introduce el radio de la circunsferencia");
-		radio = reader.nextDouble(); //aqui es donde el usuario introduce el radio
+		radio = reader.nextDouble(); //aqui es donde el usuario lo verá
 		
 		//Calcular la longitud
 		longitud = 2*Math.PI*radio; 
@@ -33,7 +33,6 @@ public class exercise05 {
 		System.out.println("La longitud de la circunferencia es" + longitud); 
 		System.out.println("La area de la circunferencia es" + area); 
 
-		
 		
 	}
 
