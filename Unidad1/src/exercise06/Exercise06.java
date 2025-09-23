@@ -15,9 +15,14 @@ public class Exercise06 {
 		//Creación del scanner
 		Scanner reader = new Scanner (System.in);
 		
-		//Pedir al usuario una cifra
+		//Pedir al usuario un número
 		System.out.println("Introduce un número");
 		numero1 = reader.nextDouble(); //aqui es donde el usuario lo verá
+		
+		//Pedir al usuario otro número
+		System.out.println("Introduce otro número");
+		numero2 = reader.nextDouble(); //aqui es donde el usuario lo verá
+		
 		
 
 	}
