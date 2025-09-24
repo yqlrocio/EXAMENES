@@ -6,8 +6,8 @@ public class Exercise07 {
 
 	public static void main(String[] args) {
 		// pedir nombre 
-		//pedir direccion
-		//pedir tel 
+		//pedir dirección
+		//pedir teléfono 
 		
 		//creación del scanner
 		Scanner reader = new Scanner(System.in);
