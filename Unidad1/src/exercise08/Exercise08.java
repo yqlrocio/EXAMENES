@@ -17,7 +17,7 @@ public class Exercise08 {
 				System.out.println("Introduza su nombre:");
 				nombre = reader.nextLine();
 				
-				//pedir al usuario su direción
+				//pedir al usuario su edad
 				System.out.println("Introduza su edad:");
 				edad = reader.nextInt();
 				
