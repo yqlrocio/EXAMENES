@@ -6,7 +6,7 @@ public class Exercise04 {
 
 	public static void main(String[] args) {
 	
-		//We create a new Scanner
+				//We create a new Scanner
 				Scanner sc = new Scanner(System.in);
 					
 				//We create the variables, the 2 different grades.
