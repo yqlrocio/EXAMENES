@@ -1,3 +1,5 @@
+package exercise09;
+
 import java.util.Scanner;
 
 public class Exercise09 {
@@ -20,7 +22,7 @@ public class Exercise09 {
 		//Comprovamos si la edad es mayor de 18
 		esMayor = edad >= 18; 
 		
-		System.out.print("¿Eres mayor de edad?"+esMayor);
+		System.out.println("¿Eres mayor de edad?"+esMayor);
 		
 		//Cerramos el Scanner
 		reader.close();
