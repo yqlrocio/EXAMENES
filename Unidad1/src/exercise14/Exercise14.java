@@ -19,6 +19,7 @@ public class Exercise14 {
 		double nota2;
 		double nota3;
 		
+		
 		//Pedir al usuario las notas del primer, segundo y tercer trimestre: mostra al usuario sus notas
 		System.out.println("¿Cúanto has sacado en el primer trimestre?");
 		nota1 = reader.nextDouble();
@@ -33,7 +34,7 @@ public class Exercise14 {
 		System.out.println("Tu nota en el boletín es de:" +  (nota1 + nota2 + nota3)/3);
 		
 		//Calcular la media: nota que sale en el boletín (solo la parte entera)
-		System.out.println("Tu nota en el boletín es de:" + (nota1 + nota2 + nota3)/3);
+		System.out.println("Tu nota en el boletín es de:" + (nota1 + nota2 + nota3)/3.0); 
 		
 	}
 
