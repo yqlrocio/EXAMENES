@@ -33,7 +33,7 @@ public class Exercise14 {
 		System.out.println("Tu nota en el boletín es de:" +  (nota1 + nota2 + nota3)/3);
 		
 		//Calcular la media: nota que sale en el boletín (solo la parte entera)
-		System.out.println("Tu nota en el boletín es de:" + ((nota3+nota2+nota1)/3));
+		System.out.println("Tu nota en el boletín es de:" + (nota1 + nota2 + nota3)/3);
 		
 	}
 
