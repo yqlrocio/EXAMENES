@@ -39,10 +39,10 @@ public class Ejercicio02 {
 		salarioBruto = numHoras*precioHora; 
 		
 		// Calculamos el descuento a aplicar atendiendo al salario bruto
-		descuento = (salatioBruto < 1000) ? 0.1 : 0.15; 
+		descuento = (salarioBruto <= 1000) ? 0.1 : 0.15; 
 		
 		// Calculamos el salario neto
-		salarioNeto = salarioNeto - salarioBruto*descuento; 
+		salarioNeto = salarioBruto - salarioBruto*descuento; 
 		
 		// Mostramos el salario neto
 		System.out.println("Tu salario neto es " + salarioNeto);
